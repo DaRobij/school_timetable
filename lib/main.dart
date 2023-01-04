@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: const App(),
-      theme: ThemeData(primarySwatch: Colors.red),
+      theme: ThemeData(primarySwatch: Colors.green),
     );
   }
 }
@@ -28,7 +28,8 @@ class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("dadada")),
+      appBar: AppBar(title: const Text("aaaaAaa")),
+
       //o sa in viitor text custom
     );
   }
